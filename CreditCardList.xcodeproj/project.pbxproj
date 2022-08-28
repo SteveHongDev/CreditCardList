@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49A6D71F28BB291C00C2AB4E /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6D71E28BB291C00C2AB4E /* CardListViewController.swift */; };
+		49A6D72128BB2A0D00C2AB4E /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6D72028BB2A0D00C2AB4E /* CreditCard.swift */; };
+		49A6D72428BB2AD000C2AB4E /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6D72228BB2AD000C2AB4E /* CardListCell.swift */; };
+		49A6D72528BB2AD000C2AB4E /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A6D72328BB2AD000C2AB4E /* CardListCell.xib */; };
+		49A6D72828BB306E00C2AB4E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 49A6D72728BB306E00C2AB4E /* Kingfisher */; };
+		49A6D72A28BB30DF00C2AB4E /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6D72928BB30DF00C2AB4E /* CardDetailViewController.swift */; };
+		49A6D72D28BB327900C2AB4E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 49A6D72C28BB327900C2AB4E /* Lottie */; };
+		49A6D72F28BB331500C2AB4E /* money.json in Resources */ = {isa = PBXBuildFile; fileRef = 49A6D72E28BB331500C2AB4E /* money.json */; };
+		49A6D73128BB38A300C2AB4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49A6D73028BB38A300C2AB4E /* GoogleService-Info.plist */; };
+		49A6D73E28BB483400C2AB4E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 49A6D73D28BB483400C2AB4E /* FirebaseDatabase */; };
+		49A6D74028BB483400C2AB4E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 49A6D73F28BB483400C2AB4E /* FirebaseFirestore */; };
+		49A6D74228BB483400C2AB4E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 49A6D74128BB483400C2AB4E /* FirebaseFirestoreSwift */; };
+		49A6D74428BB496600C2AB4E /* CreditCardDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6D74328BB496600C2AB4E /* CreditCardDummy.swift */; };
 		49DD144028BB28A900393D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD143F28BB28A900393D0A /* AppDelegate.swift */; };
 		49DD144228BB28A900393D0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD144128BB28A900393D0A /* SceneDelegate.swift */; };
 		49DD144728BB28A900393D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DD144528BB28A900393D0A /* Main.storyboard */; };
@@ -15,6 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49A6D71E28BB291C00C2AB4E /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		49A6D72028BB2A0D00C2AB4E /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		49A6D72228BB2AD000C2AB4E /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
+		49A6D72328BB2AD000C2AB4E /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
+		49A6D72928BB30DF00C2AB4E /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
+		49A6D72E28BB331500C2AB4E /* money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
+		49A6D73028BB38A300C2AB4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49A6D74328BB496600C2AB4E /* CreditCardDummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardDummy.swift; sourceTree = "<group>"; };
 		49DD143C28BB28A900393D0A /* CreditCardList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DD143F28BB28A900393D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DD144128BB28A900393D0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +50,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A6D74228BB483400C2AB4E /* FirebaseFirestoreSwift in Frameworks */,
+				49A6D73E28BB483400C2AB4E /* FirebaseDatabase in Frameworks */,
+				49A6D74028BB483400C2AB4E /* FirebaseFirestore in Frameworks */,
+				49A6D72828BB306E00C2AB4E /* Kingfisher in Frameworks */,
+				49A6D72D28BB327900C2AB4E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +80,20 @@
 		49DD143E28BB28A900393D0A /* CreditCardList */ = {
 			isa = PBXGroup;
 			children = (
+				49A6D74328BB496600C2AB4E /* CreditCardDummy.swift */,
+				49A6D72E28BB331500C2AB4E /* money.json */,
+				49A6D71E28BB291C00C2AB4E /* CardListViewController.swift */,
+				49A6D72928BB30DF00C2AB4E /* CardDetailViewController.swift */,
 				49DD143F28BB28A900393D0A /* AppDelegate.swift */,
 				49DD144128BB28A900393D0A /* SceneDelegate.swift */,
 				49DD144528BB28A900393D0A /* Main.storyboard */,
+				49A6D72028BB2A0D00C2AB4E /* CreditCard.swift */,
+				49A6D72228BB2AD000C2AB4E /* CardListCell.swift */,
+				49A6D72328BB2AD000C2AB4E /* CardListCell.xib */,
 				49DD144828BB28AB00393D0A /* Assets.xcassets */,
 				49DD144A28BB28AB00393D0A /* LaunchScreen.storyboard */,
 				49DD144D28BB28AB00393D0A /* Info.plist */,
+				49A6D73028BB38A300C2AB4E /* GoogleService-Info.plist */,
 			);
 			path = CreditCardList;
 			sourceTree = "<group>";
@@ -80,6 +114,13 @@
 			dependencies = (
 			);
 			name = CreditCardList;
+			packageProductDependencies = (
+				49A6D72728BB306E00C2AB4E /* Kingfisher */,
+				49A6D72C28BB327900C2AB4E /* Lottie */,
+				49A6D73D28BB483400C2AB4E /* FirebaseDatabase */,
+				49A6D73F28BB483400C2AB4E /* FirebaseFirestore */,
+				49A6D74128BB483400C2AB4E /* FirebaseFirestoreSwift */,
+			);
 			productName = CreditCardList;
 			productReference = 49DD143C28BB28A900393D0A /* CreditCardList.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +149,11 @@
 				Base,
 			);
 			mainGroup = 49DD143328BB28A900393D0A;
+			packageReferences = (
+				49A6D72628BB306E00C2AB4E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				49A6D72B28BB327900C2AB4E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				49A6D73C28BB483400C2AB4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 49DD143D28BB28A900393D0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,7 +170,10 @@
 			files = (
 				49DD144C28BB28AB00393D0A /* LaunchScreen.storyboard in Resources */,
 				49DD144928BB28AB00393D0A /* Assets.xcassets in Resources */,
+				49A6D72F28BB331500C2AB4E /* money.json in Resources */,
 				49DD144728BB28A900393D0A /* Main.storyboard in Resources */,
+				49A6D72528BB2AD000C2AB4E /* CardListCell.xib in Resources */,
+				49A6D73128BB38A300C2AB4E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A6D72128BB2A0D00C2AB4E /* CreditCard.swift in Sources */,
+				49A6D72A28BB30DF00C2AB4E /* CardDetailViewController.swift in Sources */,
+				49A6D72428BB2AD000C2AB4E /* CardListCell.swift in Sources */,
+				49A6D71F28BB291C00C2AB4E /* CardListViewController.swift in Sources */,
+				49A6D74428BB496600C2AB4E /* CreditCardDummy.swift in Sources */,
 				49DD144028BB28A900393D0A /* AppDelegate.swift in Sources */,
 				49DD144228BB28A900393D0A /* SceneDelegate.swift in Sources */,
 			);
@@ -354,6 +408,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		49A6D72628BB306E00C2AB4E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		49A6D72B28BB327900C2AB4E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		49A6D73C28BB483400C2AB4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		49A6D72728BB306E00C2AB4E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49A6D72628BB306E00C2AB4E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		49A6D72C28BB327900C2AB4E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49A6D72B28BB327900C2AB4E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		49A6D73D28BB483400C2AB4E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49A6D73C28BB483400C2AB4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		49A6D73F28BB483400C2AB4E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49A6D73C28BB483400C2AB4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		49A6D74128BB483400C2AB4E /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49A6D73C28BB483400C2AB4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 49DD143428BB28A900393D0A /* Project object */;
 }
